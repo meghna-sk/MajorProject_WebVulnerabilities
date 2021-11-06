@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../../partials/head'); %>
+</head>
+
+<body class="container">
+
+    <header>
+        <%- include('../../partials/header'); %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>SQL Injection</h1>
+            <p>Welcome to SQL Testing. The information is retreived from table 'Persons'.</p>
+            <a href="/sql/sqli-ml">Click here to detect SQL Injections.</a>
+        </div>
+    </main>
+    <form method="POST" action="/sql/index">
+        <input type="text" name="username" placeholder="Username" />
+        <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+
+    
+    <footer>
+        <%- include('../../partials/footer'); %>
+    </footer>
+
+</body>
+
+</html>

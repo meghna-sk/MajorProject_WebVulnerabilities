@@ -1,0 +1,673 @@
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:02:53 +0000] "GET /sql/index HTTP/1.1" 200 1695 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:02:59 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1745 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:04:36 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:04:43.183Z] PythonShellError: python3: can't open file '../ml/ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: '../ml/ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 2
+}
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:05:57 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:06:00.818Z] PythonShellError: python3: can't open file 'ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: 'ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 2
+}
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:08:57 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:08:59 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:09:03.852Z] PythonShellError: python3: can't open file 'ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: 'ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 2
+}
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:10:40 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:10:43.784Z] PythonShellError: python3: can't open file '../../ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: '../../ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 2
+}
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:11:28 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:11:45.826Z] PythonShellError: python3: can't open file '../ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: '../ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 2
+}
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:12:09 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:12:14.803Z] PythonShellError: python3: can't open file '../ml/ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: '../ml/ml_detect_sqli.py',
+  args: [ 'yash' ],
+  exitCode: 2
+}
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:13:28 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:13:52.719Z] PythonShellError: FileNotFoundError: [Errno 2] No such file or directory: 'trainingdata'
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:261:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12)
+    ----- Python Traceback -----
+    File "/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/ml/ml_detect_sqli.py", line 93, in <module>
+      filelist = os.listdir(basedir) {
+  traceback: 'Traceback (most recent call last):\n' +
+    '  File "/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/ml/ml_detect_sqli.py", line 93, in <module>\n' +
+    '    filelist = os.listdir(basedir)\n' +
+    "FileNotFoundError: [Errno 2] No such file or directory: 'trainingdata'\n",
+  executable: 'python3',
+  options: [ '-u' ],
+  script: '/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/ml/ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 1
+}
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:15:55 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:16:34.400Z] null
+::1 - - [06/Nov/2021:15:16:34 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1745 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:19:46.357Z] null
+::1 - - [06/Nov/2021:15:19:46 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1745 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+[2021-11-06T15:23:48.883Z] null
+[2021-11-06T15:23:48.884Z] [
+  'sqli     5928',
+  'plain    3694',
+  'Name: type, dtype: int64',
+  'Gradient Boosting Tree Acurracy: 1.000000',
+  '[PLAIN-TEXT]: yash'
+]
+::1 - - [06/Nov/2021:15:23:48 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1745 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:25:53.282Z] null
+[2021-11-06T15:25:53.282Z] [
+  'sqli     5928',
+  'plain    3694',
+  'Name: type, dtype: int64',
+  'Gradient Boosting Tree Acurracy: 1.000000',
+  '[SQL-Injection]: yash or 1=1'
+]
+::1 - - [06/Nov/2021:15:25:53 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1745 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:28:30 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1824 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:28:46 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1837 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:28:48 +0000] "GET /sql/sql/index HTTP/1.1" 200 1640 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:28:55 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:28:56 +0000] "GET /sql/index HTTP/1.1" 200 1761 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:28:59 +0000] "GET /sql/sql/sqli-ml HTTP/1.1" 200 1837 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:29:34 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:29:36 +0000] "GET /sql/index HTTP/1.1" 200 1771 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:29:38 +0000] "GET /sqli-ml HTTP/1.1" 404 146 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:29:55 +0000] "GET /sqli-ml HTTP/1.1" 404 146 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:29:57 +0000] "GET /sql/index HTTP/1.1" 200 1774 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:00 +0000] "GET /sql/sql/sqli-ml HTTP/1.1" 200 1854 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:02 +0000] "GET /sql/sql/sql/index HTTP/1.1" 404 156 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:20 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:24 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:27 +0000] "GET /sql/sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:30:53 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:54 +0000] "GET /sql/index HTTP/1.1" 200 1771 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:30:56 +0000] "GET /sqli-ml HTTP/1.1" 404 146 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:32:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 0
+Server is up and running on 0
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:33:01 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:33:03 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:33:05 +0000] "GET /sqli-ml HTTP/1.1" 404 146 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 0
+Server is up and running on 0
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:33:43 +0000] "GET /sqli-ml HTTP/1.1" 404 146 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:33:46 +0000] "GET /sqli-ml HTTP/1.1" 404 146 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:15:34:26 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:28 +0000] "GET /sql/index HTTP/1.1" 200 1776 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:31 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1855 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:33 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:36 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:37 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:51 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:53 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:34:53 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:00 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:01 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:04 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:12 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:13 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:58 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:58 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:35:59 +0000] "GET /sql/index HTTP/1.1" 200 1777 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:36:00 +0000] "GET /insecure/index HTTP/1.1" 200 4414 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:36:02 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:36:06 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:36:09 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:36:10 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:37:27 +0000] "GET /sql/index HTTP/1.1" 200 1828 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:37:31 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2976 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:37:40 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2973 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:37:51 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2976 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:02 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2980 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:07 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:09 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:11 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:12 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:13 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:15 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:16 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:17 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:20 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2584 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:21 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:23 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:27 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:38:31 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:39:10 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2982 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:39:43 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2977 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:39:46 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2581 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:39:48 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:40:06 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2581 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:40:27 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2583 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:40:29 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:40:31 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2583 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:40:37 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:40:53 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:40:54 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:42:08 +0000] "GET /sql/index HTTP/1.1" 200 1857 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:42:14.766Z] Username entered: yash
+::1 - - [06/Nov/2021:15:42:14 +0000] "POST /sql/index HTTP/1.1" 200 1857 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:42:14.848Z] Unmitigated SQLi Query Output - 
+[2021-11-06T15:42:14.848Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash1234' } ]
+[2021-11-06T15:42:14.854Z] Mitigated SQLi Query Output - 
+[2021-11-06T15:42:14.854Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash1234' } ]
+::1 - - [06/Nov/2021:15:43:49 +0000] "GET /insecure/index HTTP/1.1" 200 4455 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:44:14 +0000] "GET /insecure/index HTTP/1.1" 200 4462 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:44:34 +0000] "GET /insecure/index HTTP/1.1" 200 4470 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:44:43 +0000] "GET /insecure/index HTTP/1.1" 200 4462 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:07 +0000] "GET /insecure/index HTTP/1.1" 200 4471 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:15 +0000] "GET /insecure/index HTTP/1.1" 200 4480 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:20 +0000] "GET /insecure/index HTTP/1.1" 200 4471 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:22 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T15:45:27.964Z] [Object: null prototype] { username: 'admin' }
+[2021-11-06T15:45:27.964Z] [ 'admin' ]
+[2021-11-06T15:45:27.971Z] {
+  words: [ -697805596, -2103183802, 843265376, -106155426 ],
+  sigBytes: -225
+}
+[2021-11-06T15:45:27.971Z] 
+[2021-11-06T15:45:27.972Z] e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2021-11-06T15:45:27.972Z] e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2021-11-06T15:45:27.972Z] 
+::1 - - [06/Nov/2021:15:45:27 +0000] "POST /insecure/index HTTP/1.1" 200 4471 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:40 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:44 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:48 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:52 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:54 +0000] "GET /sql/index HTTP/1.1" 200 1848 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:56 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1876 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:45:59 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:01 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:03 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:04 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:29 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1916 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:43 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:44 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:46 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:47 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:48 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:46:49 +0000] "GET /insecure/index HTTP/1.1" 200 4471 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:58:59 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:00 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:03 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:11 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:12 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:13 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:14 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:15 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:17 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:19 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:21 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:15:59:24 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:20 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:25 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:28 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:28 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:29 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:30 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:31 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:34 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:04:37 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:05:56 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:05:57 +0000] "GET /sql/index HTTP/1.1" 500 2012 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:16:09:15 +0000] "GET /sql/index HTTP/1.1" 500 2012 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:16:09:16 +0000] "GET /sql/index HTTP/1.1" 500 2012 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:16:09:46 +0000] "GET /sql/index HTTP/1.1" 200 1843 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:26:26 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T17:26:31.354Z] [Object: null prototype] { username: 'yash' }
+[2021-11-06T17:26:31.357Z] [ 'yash' ]
+[2021-11-06T17:26:31.363Z] {
+  words: [ -673187687, -1995359944, -280654761, -1346673041 ],
+  sigBytes: -150
+}
+[2021-11-06T17:26:31.363Z] 
+[2021-11-06T17:26:31.364Z] e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2021-11-06T17:26:31.364Z] e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+[2021-11-06T17:26:31.364Z] 
+::1 - - [06/Nov/2021:17:26:31 +0000] "POST /insecure/index HTTP/1.1" 200 4471 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:28:19 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:28:21 +0000] "GET /sql/sqli-ml HTTP/1.1" 500 1931 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:17:30:18 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1911 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:30:19 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:30:20 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:30:21 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:30:22 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:30:23 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T17:30:31.896Z] Username entered: yash' or '1=1
+::1 - - [06/Nov/2021:17:30:31 +0000] "POST /sql/index HTTP/1.1" 200 1843 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T17:30:31.958Z] Unmitigated SQLi Query Output - 
+[2021-11-06T17:30:31.958Z] [
+  RowDataPacket { id: 1, username: 'meghna', password: 'meghna' },
+  RowDataPacket { id: 2, username: 'yash', password: 'yash1234' }
+]
+[2021-11-06T17:30:31.980Z] Mitigated SQLi Query Output - 
+[2021-11-06T17:30:31.980Z] []
+::1 - - [06/Nov/2021:17:30:43 +0000] "GET /insecure/index HTTP/1.1" 200 4471 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:31:20 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:31:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:31:28 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:17:31:31 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+[2021-11-06T18:30:01.542Z] error when connecting to db:
+[2021-11-06T18:30:03.547Z] error when connecting to db:
+[2021-11-06T18:30:05.551Z] error when connecting to db:
+[2021-11-06T18:30:07.558Z] error when connecting to db:
+[2021-11-06T18:30:09.562Z] error when connecting to db:
+Server is up and running on 3000
+[2021-11-06T18:30:12.884Z] error when connecting to db:
+[2021-11-06T18:30:14.893Z] error when connecting to db:
+[2021-11-06T18:30:16.898Z] error when connecting to db:
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:30:47 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:30:48 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:31:14 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:32:41 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:33:54 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:34:46 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+::1 - - [06/Nov/2021:18:34:50 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:36:40 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:37:55 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:47:40 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:51:32 +0000] "GET /insecure/index HTTP/1.1" 200 4484 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:56:20 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+::1 - - [06/Nov/2021:18:56:26 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:56:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:56:28 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:56:29 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:56:53 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+::1 - - [06/Nov/2021:18:56:57 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:57:02 +0000] "GET /sql/index HTTP/1.1" 200 1843 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+::1 - - [06/Nov/2021:18:57:12 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:57:27 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+::1 - - [06/Nov/2021:18:57:31 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:57:33 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:57:36 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+::1 - - [06/Nov/2021:18:57:38 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+::1 - - [06/Nov/2021:18:57:39 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Mobile Safari/537.36"
+[2021-11-06T18:57:47.486Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+q7vEvmiQHPLPTS+tNBBqMxsR74oW99JX/tHCzCDezI2tJRHA1p/DljH848kr+k/GyJu6hjja77eQisXodPZQHEMuWaeXw6BpNV60KU9ROeU3AnJlQGIhE yash'
+}
+[2021-11-06T18:57:47.492Z] [
+  'U2FsdGVkX1+q7vEvmiQHPLPTS+tNBBqMxsR74oW99JX/tHCzCDezI2tJRHA1p/DljH848kr+k/GyJu6hjja77eQisXodPZQHEMuWaeXw6BpNV60KU9ROeU3AnJlQGIhE',
+  'yash'
+]
+[2021-11-06T18:57:47.504Z] {
+  words: [
+     842412643, 1664366384,
+     858808881,  942682928,
+     909391924,  878852404,
+    1664181090,  808465716,
+    1630680119, 1680958773,
+     892364082,  912417331,
+     862335537,  892417081,
+    1681416754, 1664561765,
+     269488144,  269488144,
+     269488144,  269488144
+  ],
+  sigBytes: 64
+}
+[2021-11-06T18:57:47.505Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-06T18:57:47.506Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-06T18:57:47.506Z] Verified
+::1 - - [06/Nov/2021:18:57:47 +0000] "POST /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 3000
+::1 - - [06/Nov/2021:18:58:53 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:58:55 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T18:58:59.916Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+eyMWReeH+hulNIQkc1fbsX2WLblXZtRkppdmHV3bwJujBTvPSOBKjI8ixvshbjrZMC3oHF5uvDrPVV7I/cW5UYVUpTfyfD0nvhC/VxllRNbXQ8ppF7Wfv yash'
+}
+[2021-11-06T18:58:59.920Z] [
+  'U2FsdGVkX1+eyMWReeH+hulNIQkc1fbsX2WLblXZtRkppdmHV3bwJujBTvPSOBKjI8ixvshbjrZMC3oHF5uvDrPVV7I/cW5UYVUpTfyfD0nvhC/VxllRNbXQ8ppF7Wfv',
+  'yash'
+]
+[2021-11-06T18:58:59.925Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-06T18:58:59.925Z] Verified.
+::1 - - [06/Nov/2021:18:58:59 +0000] "POST /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:59:53 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:59:54 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:59:55 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:59:56 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:59:56 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:59:57 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:18:59:58 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+::1 - - [06/Nov/2021:19:04:49 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:04:51 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:04:51 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:04:55 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:04:57 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:04:58 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:00 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:02 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:04 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:05 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:05 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:06 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:08 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:09 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:05:10 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:05:16.190Z] [Object: null prototype] {
+  username: 'U2FsdGVkX18BJ3RGtBuRFKHctfC1ph23nxsBnNyYhvHVZlkIPFc5D6d9DjOnM7sQcH8R6+JcD1pAGP4JttbIYHATbtkM7bHpeWjxhvb+x2Ilfmenf5Orq4FbznXCuZVt meghna'
+}
+[2021-11-06T19:05:16.192Z] [
+  'U2FsdGVkX18BJ3RGtBuRFKHctfC1ph23nxsBnNyYhvHVZlkIPFc5D6d9DjOnM7sQcH8R6+JcD1pAGP4JttbIYHATbtkM7bHpeWjxhvb+x2Ilfmenf5Orq4FbznXCuZVt',
+  'meghna'
+]
+[2021-11-06T19:05:16.199Z] 5aae7627fbbdb1cad3eaec405608671f3ba43b64339745ceef21f871f670cebb
+[2021-11-06T19:05:16.199Z] Verified.
+::1 - - [06/Nov/2021:19:05:16 +0000] "POST /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+[2021-11-06T19:13:37.965Z] error when connecting to db:
+[2021-11-06T19:13:39.973Z] error when connecting to db:
+Server is up and running on 3000
+::1 - - [06/Nov/2021:19:14:34 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:14:39 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:14:40 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:14:41 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 3000
+Server is up and running on 0
+Server is up and running on 8000
+::1 - - [06/Nov/2021:19:26:12 +0000] "GET / HTTP/1.1" 200 1640 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:26:12 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:26:17 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2977 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:26:21 +0000] "GET /sql/index HTTP/1.1" 200 1843 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:27:09.763Z] Username entered: yash' or '1=1
+::1 - - [06/Nov/2021:19:27:09 +0000] "POST /sql/index HTTP/1.1" 200 1843 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:27:09.821Z] Unmitigated SQLi Query Output - 
+[2021-11-06T19:27:09.822Z] [
+  RowDataPacket { id: 1, username: 'meghna', password: 'meghna' },
+  RowDataPacket { id: 2, username: 'yash', password: 'yash1234' }
+]
+[2021-11-06T19:27:09.887Z] Mitigated SQLi Query Output - 
+[2021-11-06T19:27:09.888Z] []
+::1 - - [06/Nov/2021:19:27:30 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1911 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:27:37.842Z] PythonShellError: python3: can't open file '/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/ml/ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: '/home/meghna/Desktop/SEM_7/MP/Web_Vulnerabilities_MP/ml/ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 2
+}
+Server is up and running on 8000
+::1 - - [06/Nov/2021:19:27:57 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:27:57 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:27:59 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:28:06 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:28:52 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:29:03.646Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1/PMxjwLLdeSGQ3LYVne15edH3f64xAgINncb/qFLL+FNLAk2Ei8FjUoelcFfgY+YTStci+dIgg5VbX98tyRIcCNJqAmCPVdnqGozZS/SCg01V4sqEvbzjW yash'
+}
+[2021-11-06T19:29:03.650Z] [
+  'U2FsdGVkX1/PMxjwLLdeSGQ3LYVne15edH3f64xAgINncb/qFLL+FNLAk2Ei8FjUoelcFfgY+YTStci+dIgg5VbX98tyRIcCNJqAmCPVdnqGozZS/SCg01V4sqEvbzjW',
+  'yash'
+]
+[2021-11-06T19:29:03.656Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-06T19:29:03.656Z] Verified.
+::1 - - [06/Nov/2021:19:29:03 +0000] "POST /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:29:36.004Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+BSgdag/Av6sq2SvvxdZnonbo/exDFL8/8Vmj/POMDvGt13NUoxtM+daWghegxbd+U5AYfwem1Ede+Y4P6v/VPQ0vMjdg+cAGNlbUaUT6xws5I+vGGyTai harini'
+}
+[2021-11-06T19:29:36.004Z] [
+  'U2FsdGVkX1+BSgdag/Av6sq2SvvxdZnonbo/exDFL8/8Vmj/POMDvGt13NUoxtM+daWghegxbd+U5AYfwem1Ede+Y4P6v/VPQ0vMjdg+cAGNlbUaUT6xws5I+vGGyTai',
+  'harini'
+]
+[2021-11-06T19:29:36.007Z] 0b5ab8e4ff0a4b2b6640c2d304a10d5af5a3b113643ec13dcc26637e0d675ce6
+[2021-11-06T19:29:36.007Z] Verified.
+::1 - - [06/Nov/2021:19:29:36 +0000] "POST /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [06/Nov/2021:19:30:44 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:30:45 +0000] "GET /sql/index HTTP/1.1" 200 1843 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:30:46 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:30:51.763Z] PythonShellError: python3: can't open file '/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities_MP/ml/ml_detect_sqli.py': [Errno 2] No such file or directory
+
+    at PythonShell.parseError (/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/node_modules/python-shell/index.js:269:21)
+    at terminateIfNeeded (/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/node_modules/python-shell/index.js:144:32)
+    at ChildProcess.<anonymous> (/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/node_modules/python-shell/index.js:136:13)
+    at ChildProcess.emit (node:events:394:28)
+    at Process.ChildProcess._handle.onexit (node:internal/child_process:290:12) {
+  executable: 'python3',
+  options: [ '-u' ],
+  script: '/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities_MP/ml/ml_detect_sqli.py',
+  args: [ 'yash or 1=1' ],
+  exitCode: 2
+}
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [06/Nov/2021:19:31:25 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:32:15.747Z] null
+[2021-11-06T19:32:15.748Z] [
+  'sqli     5928',
+  'plain    3694',
+  'Name: type, dtype: int64',
+  'Gradient Boosting Tree Acurracy: 1.000000',
+  '[SQL-Injection]: yash or 1=1'
+]
+::1 - - [06/Nov/2021:19:32:15 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1911 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-06T19:33:04.501Z] null
+[2021-11-06T19:33:04.501Z] [
+  'sqli     5928',
+  'plain    3694',
+  'Name: type, dtype: int64',
+  'Gradient Boosting Tree Acurracy: 1.000000',
+  '[PLAIN-TEXT]: yash'
+]
+::1 - - [06/Nov/2021:19:33:04 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1911 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+::1 - - [06/Nov/2021:19:34:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:34:10 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:34:11 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:34:11 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:34:12 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:34:14 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:34:21 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+::1 - - [06/Nov/2021:19:36:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:22 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:24 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2743 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:29 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:31 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:32 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:36 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:37 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:36:37 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:18 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:19 +0000] "GET /sql/index HTTP/1.1" 200 1833 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:22 +0000] "GET /insecure/index HTTP/1.1" 200 4385 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:23 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:24 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:26 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:28 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:29 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:30 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:19:39:32 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../../partials/head'); %>
+</head>
+<% var htmlEscapes = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#x27;',
+    '/': '&#x2F;'
+  };
+%>
+<% var htmlEscape = /[&<>"'\/]/g; %>
+<% function escapeHTML(string) {
+    return ('' + string).replace(htmlEscape, function(match) {
+        return htmlEscapes[match];
+      });
+   }
+%>
+<body class="container">
+
+    <header>
+        <%- include('../../partials/header'); %>
+    </header>
+
+    <main>
+        <div class="jumbotron">
+            <h1>XSS Mitigated Form</h1>
+            <p>Welcome to XSS/XXE Testing.<br>The following table has details from the table 'users'.<br> 
+                Click on the 'Add' button below to do appropriate changes to the information.</p>
+        </div>
+    </main>
+
+    <a href="/xss-xxe/add"><button type="button" class="btn btn-dark">Add</button></button></a>
+    <br>
+    <br>
+    <div class="table-wrapper">
+        <% if (users.length > 0) {%>
+            <table class="table table-hovered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Designation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% users.forEach((user, index) => { %>
+                        <tr>
+                            <th scope="row"><%= user.id %></th>
+                            <td><%= user.name %></td>
+                            <td><%= user.designation %></td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        <% } else { %>
+            <p class="text-center">No users found. Go to add.</p>
+        <% } %>
+    </div>
+    <footer>
+        <%- include('../../partials/footer'); %>
+    </footer>
+
+</body>
+
+</html>

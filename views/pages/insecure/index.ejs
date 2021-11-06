@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../../partials/head'); %>
+</head>
+
+<body class="container">
+
+    <header>
+        <%- include('../../partials/header'); %>
+    </header>
+
+    <main>
+        <main>
+            <div class="jumbotron">
+                <h1>Insecure Deserialization</h1>
+                <p>Welcome to Insecure Deserialization Testing.</p>
+            </div>
+        </main>
+
+    </main>
+
+    <form method="POST" action="/insecure/index">
+        <input type="text" id="id" name="username" placeholder="Username"/>
+        <button type="submit" class="btn btn-dark" onclick="encode()">Submit</button>
+    </form>
+    <br>
+    <footer>
+        <%- include('../../partials/footer'); %>
+    </footer>
+
+</body>
+<!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+    integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/aes.min.js"
+    integrity="sha512-4b1zfeOuJCy8B/suCMGNcEkMcQkQ+/jQ6HlJIaYVGvg2ZydPvdp7GY0CuRVbNpSxNVFqwTAmls2ftKSkDI9vtA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/sha256.min.js"
+    integrity="sha512-fv28nWHTcWfoN3KBd2fs+YWsirQ+L0b/iIRS7HcNDPSAwxy6oSjRrYjQ+OtJoJz0wUKsVcPYgwcZzK04KfHD0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    function encode() {
+        var element = document.getElementById(id);
+        // document.getElementById("id").value = "Yash"
+        console.log(document.getElementById("id"))
+        var ele = document.getElementById("id").value 
+        // const crypto = require('crypto-js');
+        // const buffer = require('buffer');
+        // const { privateKey, publicKey } = CryptoJS.generateKeyPairSync('rsa', {
+        //     modulusLength: 2048,
+        // });
+        // const algorithm = "SHA256";
+
+        // // Converting string to buffer
+        // const data = "I Love GeeksForGeeks";
+
+        // // Sign the data and returned signature in buffer
+        // const signature = CryptoJS.sign(algorithm, data, privateKey);
+
+        // // Verifying signature using crypto.verify() function
+        // const isVerified = CryptoJS.verify(algorithm, data, publicKey, signature);
+        var hash = CryptoJS.SHA256(ele)
+        // Printing the result
+        console.log(ele)
+        console.log(hash.toString());
+        var hash = CryptoJS.SHA256(ele)
+        hash = hash.toString()
+        // var encrypted = CryptoJS.AES.encrypt("Yash", "Secret Passphrase").toString();
+
+        // var decrypted = CryptoJS.AES.decrypt(encrypted, "Secret Passphrase");
+        // console.log(decrypted)   
+        var ciphertext = CryptoJS.AES.encrypt(hash,'secret key 123').toString();
+        document.getElementById("id").value = ciphertext + " " + ele;
+        // Decrypt
+        var bytes = CryptoJS.AES.decrypt(ciphertext, 'secret key 123');
+        var originalText = bytes.toString(CryptoJS.enc.Utf8);
+
+        console.log(originalText + 'Uas'); // 'my message'
+
+    }
+</script>
+
+</html>
