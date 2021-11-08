@@ -15,39 +15,46 @@ let connection = mysql.createConnection({
 });
 
 var index_get = async (req,res) => {
-    res.render('pages/index', { data: req.body });
+    res.render('pages/sql/index', { data1: " ", data2:" " });
+    
 }
-router.get('/sql/index', index_get);
+router.get('/index', index_get);
 
 var index_post = async (req,res) => {
     console.log("Username entered: " + req.body.username)
-    var out1
+    let out1
+    let out2
     connection.query("SELECT * from Persons where username='" + req.body.username + "'", function (err, rows, fields) {
         if (!err) {
             console.log("Unmitigated SQLi Query Output - ")
             console.log(rows)
-            out1 = rows
-        } else
-            console.log('Error Occured.', err);
+            out1=rows[0]
+        } else{
+            console.log('Error Occured.' + err);
+            out1=err
+        }
     });
     connection.query('SELECT * from Persons where username=?', [req.body.username], function (err, rows, fields) {
         if (!err){
             console.log("Mitigated SQLi Query Output - ")
             console.log(rows);
+            out2=rows[0]
         }
-        else
-            console.log('Error Occured.', err);
+        else{
+            console.log('Error Occured.' + err);
+            out2=err
+        }
+            
     });
-
-    res.render('pages/sql/index', { data: out1 });
+    res.render('pages/sql/index', { data1: out1, data2: out2 });
 }
 router.post('/index', urlencodedParser, index_post);
 
 //machine learning sqli
 var sqli_ml_get = async (req,res) => {
-    res.render('pages/sql/sqli_ml', { data: req.body });
+    res.render('pages/sql/sqli_ml', { data: " " });
 }
-router.get('/sql/sqli-ml', sqli_ml_get);
+router.get('/sqli-ml', sqli_ml_get);
 
 var sqli_ml_post = async (req,res) => {
     let options = {
@@ -56,11 +63,7 @@ var sqli_ml_post = async (req,res) => {
         //scriptPath: 'path/to/my/scripts', //If you are having python_test.py script in same folder, then it's optional. 
         args: [req.body.username] //An argument which can be accessed in the script using sys.argv[1] 
     };
-    //let pyshell = new PythonShell('script1.py');
-    // await PythonShell.run('ml_detect_sqli.py', null, function (err) {
-    //     if (err) throw err;
-    //     console.log('finished');
-    // });
+
 
     var out
     await PythonShell.run('/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/ml/ml_detect_sqli.py', options, function (result, err) {
@@ -72,15 +75,6 @@ var sqli_ml_post = async (req,res) => {
     });
 }
 router.post('/sqli-ml', urlencodedParser, sqli_ml_post);
-
-//sql routes
-router.get('/index', (req,res)=> {
-    res.render('pages/sql/index');
-})
-
-router.get('/sqli-ml', (req,res)=> {
-    res.render('pages/sql/sqli_ml');
-})
 
 module.exports = router;
 

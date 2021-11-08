@@ -671,3 +671,2429 @@ Server is up and running on 8000
 ::1 - - [06/Nov/2021:19:39:29 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
 ::1 - - [06/Nov/2021:19:39:30 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
 ::1 - - [06/Nov/2021:19:39:32 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+::1 - - [06/Nov/2021:20:02:44 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:20:02:44 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:20:02:45 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:20:02:46 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:20:02:47 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:20:02:47 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:20:02:49 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [06/Nov/2021:20:02:50 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+::1 - - [07/Nov/2021:06:54:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:04 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:07 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:08 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:10 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:11 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:13 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:15 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:17 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:19 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:21 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:32 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:54:34 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:03 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:05 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:09 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:09 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:11 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:12 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:28 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:35 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:38 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2578 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:55:56 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-07T06:56:02.556Z] Username entered: yash' or '1=1
+::1 - - [07/Nov/2021:06:56:02 +0000] "POST /sql/index HTTP/1.1" 200 1833 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-07T06:56:02.650Z] Unmitigated SQLi Query Output - 
+[2021-11-07T06:56:02.651Z] [
+  RowDataPacket { id: 1, username: 'meghna', password: 'meghna' },
+  RowDataPacket { id: 2, username: 'yash', password: 'yash1234' }
+]
+[2021-11-07T06:56:02.677Z] Mitigated SQLi Query Output - 
+[2021-11-07T06:56:02.677Z] []
+::1 - - [07/Nov/2021:06:56:17 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-07T06:57:28.910Z] null
+[2021-11-07T06:57:28.910Z] [
+  'sqli     5928',
+  'plain    3694',
+  'Name: type, dtype: int64',
+  'Gradient Boosting Tree Acurracy: 1.000000',
+  '[SQL-Injection]: yash or 1=1'
+]
+::1 - - [07/Nov/2021:06:57:28 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:57:42 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-07T06:57:51.120Z] [Object: null prototype] {
+  username: 'U2FsdGVkX19ah4voUlWyb+D0L9kosyxmSn94TUsdkhVPNkffBWtTD9H+UT9CH8vkURxHFOaHZEbn6KKRL1wFZYpQePYH1x6Tjg9kMHxXz7VKOUgF3BU6rU20rpzlZujo admin'
+}
+[2021-11-07T06:57:51.121Z] [
+  'U2FsdGVkX19ah4voUlWyb+D0L9kosyxmSn94TUsdkhVPNkffBWtTD9H+UT9CH8vkURxHFOaHZEbn6KKRL1wFZYpQePYH1x6Tjg9kMHxXz7VKOUgF3BU6rU20rpzlZujo',
+  'admin'
+]
+[2021-11-07T06:57:51.131Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-07T06:57:51.131Z] Verified.
+::1 - - [07/Nov/2021:06:57:51 +0000] "POST /insecure/index HTTP/1.1" 200 4385 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:06:58:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+::1 - - [07/Nov/2021:13:02:30 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:13:02:32 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:13:02:33 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2538 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-07T13:02:37.784Z] XSS/XXE attack detected
+::1 - - [07/Nov/2021:13:02:37 +0000] "POST /xss-xxe/add HTTP/1.1" 302 52 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:13:02:37 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:13:02:40 +0000] "GET /sql/index HTTP/1.1" 200 1833 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+::1 - - [07/Nov/2021:13:02:42 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+[2021-11-07T13:03:43.207Z] null
+[2021-11-07T13:03:43.208Z] [
+  'sqli     5928',
+  'plain    3694',
+  'Name: type, dtype: int64',
+  'Gradient Boosting Tree Acurracy: 1.000000',
+  '[SQL-Injection]: yash or 1=1'
+]
+::1 - - [07/Nov/2021:13:03:43 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36"
+Server is up and running on 8000
+[2021-11-08T11:16:06.312Z] error when connecting to db:
+[2021-11-08T11:16:08.317Z] error when connecting to db:
+[2021-11-08T11:16:10.319Z] error when connecting to db:
+[2021-11-08T11:16:12.324Z] error when connecting to db:
+[2021-11-08T11:16:14.329Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:16:36.841Z] error when connecting to db:
+[2021-11-08T11:16:38.844Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:17:04.711Z] error when connecting to db:
+[2021-11-08T11:17:06.714Z] error when connecting to db:
+[2021-11-08T11:17:08.717Z] error when connecting to db:
+[2021-11-08T11:17:10.722Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:17:29.443Z] error when connecting to db:
+[2021-11-08T11:17:31.450Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:18:05.649Z] error when connecting to db:
+[2021-11-08T11:18:07.656Z] error when connecting to db:
+[2021-11-08T11:18:09.659Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:18:45.385Z] error when connecting to db:
+[2021-11-08T11:18:47.392Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:19:08.718Z] error when connecting to db:
+[2021-11-08T11:19:10.722Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:19:33.531Z] error when connecting to db:
+[2021-11-08T11:19:35.536Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:20:05.686Z] error when connecting to db:
+[2021-11-08T11:20:07.692Z] error when connecting to db:
+[2021-11-08T11:20:09.696Z] error when connecting to db:
+[2021-11-08T11:20:11.701Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:25:33.546Z] error when connecting to db:
+[2021-11-08T11:25:35.551Z] error when connecting to db:
+[2021-11-08T11:25:37.555Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T11:31:22.828Z] error when connecting to db:
+[2021-11-08T11:31:24.836Z] error when connecting to db:
+[2021-11-08T11:31:26.842Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T12:10:48.405Z] error when connecting to db:
+[2021-11-08T12:10:50.408Z] error when connecting to db:
+Server is up and running on 8000
+::1 - - [08/Nov/2021:12:50:08 +0000] "GET / HTTP/1.1" 200 1640 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:50:09 +0000] "GET /favicon.ico HTTP/1.1" 404 150 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:50:13 +0000] "GET /insecure/index HTTP/1.1" 500 1471 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+::1 - - [08/Nov/2021:12:51:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:51:28 +0000] "GET /insecure/index HTTP/1.1" 200 4415 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:52:17 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:52:18 +0000] "GET /xss-xxe/show HTTP/1.1" 200 1918 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:52:21 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2580 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:52:37 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:52:38 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2580 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:53:23 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2580 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:53:28.515Z] <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  _closed: false,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      constructed: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 12
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 12
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::1', family: 'IPv6', port: 60722 },
+    timeout: 0,
+    [Symbol(async_id_symbol)]: 96,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: -1,
+      _idlePrev: null,
+      _idleNext: null,
+      _idleStart: 120807,
+      _onTimeout: null,
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: true,
+      [Symbol(refed)]: false,
+      [Symbol(kHasPrimitive)]: false,
+      [Symbol(asyncId)]: 135,
+      [Symbol(triggerId)]: 132
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: null,
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: true,
+      reading: false,
+      constructed: true,
+      sync: false,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      destroyed: true,
+      errored: null,
+      closed: true,
+      closeEmitted: true,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      timeout: 0,
+      [Symbol(async_id_symbol)]: 96,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 120807,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 135,
+        [Symbol(triggerId)]: 132
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    rawHeaders: [
+      'Host',
+      'localhost:8000',
+      'Connection',
+      'keep-alive',
+      'Content-Length',
+      '92',
+      'Cache-Control',
+      'max-age=0',
+      'sec-ch-ua',
+      '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+      'sec-ch-ua-mobile',
+      '?0',
+      'sec-ch-ua-platform',
+      '"Linux"',
+      'Upgrade-Insecure-Requests',
+      '1',
+      'Origin',
+      'null',
+      'Content-Type',
+      'application/x-www-form-urlencoded',
+      'User-Agent',
+      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+      'Accept',
+      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'Sec-Fetch-Site',
+      'same-origin',
+      'Sec-Fetch-Mode',
+      'navigate',
+      'Sec-Fetch-User',
+      '?1',
+      'Sec-Fetch-Dest',
+      'document',
+      'Accept-Encoding',
+      'gzip, deflate, br',
+      'Accept-Language',
+      'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+      'Cookie',
+      '_xsrf=2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533; username-localhost-8888="2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e"; _csrf=EJ6HeknEP1aZ8EerGmiLfIgI'
+    ],
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/add',
+    method: 'POST',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      timeout: 0,
+      [Symbol(async_id_symbol)]: 96,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 120807,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 135,
+        [Symbol(triggerId)]: 132
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: true,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '/xss-xxe',
+    originalUrl: '/xss-xxe/add',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/add',
+      path: '/add',
+      href: '/add',
+      _raw: '/add'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    getConnection: [Function (anonymous)],
+    secret: undefined,
+    cookies: {
+      _xsrf: '2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533',
+      'username-localhost-8888': '2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e',
+      _csrf: 'EJ6HeknEP1aZ8EerGmiLfIgI'
+    },
+    signedCookies: [Object: null prototype] {},
+    body: [Object: null prototype] {
+      _csrf: 'dfHdginr-EGks82q-oMiX819biSODk2OKJak',
+      name: 'Meghna Kashyap',
+      designation: 'Program Associate'
+    },
+    _body: true,
+    length: undefined,
+    _startAt: [ 1504, 912598607 ],
+    _startTime: 2021-11-08T12:53:28.427Z,
+    _remoteAddress: '::1',
+    route: Route { path: '/add', stack: [Array], methods: [Object] },
+    csrfToken: [Function: csrfToken],
+    [Symbol(kCapture)]: false,
+    [Symbol(kHeaders)]: {
+      host: 'localhost:8000',
+      connection: 'keep-alive',
+      'content-length': '92',
+      'cache-control': 'max-age=0',
+      'sec-ch-ua': '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"Linux"',
+      'upgrade-insecure-requests': '1',
+      origin: 'null',
+      'content-type': 'application/x-www-form-urlencoded',
+      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+      cookie: '_xsrf=2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533; username-localhost-8888="2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e"; _csrf=EJ6HeknEP1aZ8EerGmiLfIgI'
+    },
+    [Symbol(kHeadersCount)]: 38,
+    [Symbol(kTrailers)]: null,
+    [Symbol(kTrailersCount)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _sent100: false,
+  _expect_continue: false,
+  locals: [Object: null prototype] {},
+  end: [Function (anonymous)],
+  _startAt: undefined,
+  _startTime: undefined,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] {
+    queue: [ [Function: logRequest], [Function: logRequest] ]
+  },
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'content-security-policy': [
+      'Content-Security-Policy',
+      "default-src 'self' 'unsafe-inline';style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ https://maxcdn.bootstrapcdn.com;script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/"
+    ],
+    'x-dns-prefetch-control': [ 'X-DNS-Prefetch-Control', 'off' ],
+    'expect-ct': [ 'Expect-CT', 'max-age=0' ],
+    'x-frame-options': [ 'X-Frame-Options', 'SAMEORIGIN' ],
+    'strict-transport-security': [
+      'Strict-Transport-Security',
+      'max-age=15552000; includeSubDomains; preload'
+    ],
+    'x-download-options': [ 'X-Download-Options', 'noopen' ],
+    'x-content-type-options': [ 'X-Content-Type-Options', 'nosniff' ],
+    'x-permitted-cross-domain-policies': [ 'X-Permitted-Cross-Domain-Policies', 'none' ],
+    'referrer-policy': [ 'Referrer-Policy', 'no-referrer' ],
+    'x-xss-protection': [ 'X-XSS-Protection', '0' ]
+  }
+}
+::1 - - [08/Nov/2021:12:53:28 +0000] "POST /xss-xxe/add HTTP/1.1" 302 52 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:53:28 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2503 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:53:30 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2580 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:53:34.556Z] <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  _closed: false,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      constructed: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: false,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 12
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 12
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::1', family: 'IPv6', port: 60722 },
+    timeout: 0,
+    [Symbol(async_id_symbol)]: 96,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: Timeout {
+      _idleTimeout: -1,
+      _idlePrev: null,
+      _idleNext: null,
+      _idleStart: 127298,
+      _onTimeout: null,
+      _timerArgs: undefined,
+      _repeat: null,
+      _destroyed: true,
+      [Symbol(refed)]: false,
+      [Symbol(kHasPrimitive)]: false,
+      [Symbol(asyncId)]: 173,
+      [Symbol(triggerId)]: 170
+    },
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: null,
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: true,
+      reading: false,
+      constructed: true,
+      sync: false,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      destroyed: true,
+      errored: null,
+      closed: true,
+      closeEmitted: true,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      timeout: 0,
+      [Symbol(async_id_symbol)]: 96,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 127298,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 173,
+        [Symbol(triggerId)]: 170
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    rawHeaders: [
+      'Host',
+      'localhost:8000',
+      'Connection',
+      'keep-alive',
+      'Content-Length',
+      '94',
+      'Cache-Control',
+      'max-age=0',
+      'sec-ch-ua',
+      '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+      'sec-ch-ua-mobile',
+      '?0',
+      'sec-ch-ua-platform',
+      '"Linux"',
+      'Upgrade-Insecure-Requests',
+      '1',
+      'Origin',
+      'null',
+      'Content-Type',
+      'application/x-www-form-urlencoded',
+      'User-Agent',
+      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+      'Accept',
+      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'Sec-Fetch-Site',
+      'same-origin',
+      'Sec-Fetch-Mode',
+      'navigate',
+      'Sec-Fetch-User',
+      '?1',
+      'Sec-Fetch-Dest',
+      'document',
+      'Accept-Encoding',
+      'gzip, deflate, br',
+      'Accept-Language',
+      'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+      'Cookie',
+      '_xsrf=2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533; username-localhost-8888="2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e"; _csrf=EJ6HeknEP1aZ8EerGmiLfIgI'
+    ],
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/add',
+    method: 'POST',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      timeout: 0,
+      [Symbol(async_id_symbol)]: 96,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: -1,
+        _idlePrev: null,
+        _idleNext: null,
+        _idleStart: 127298,
+        _onTimeout: null,
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: true,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 173,
+        [Symbol(triggerId)]: 170
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: true,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '/xss-xxe',
+    originalUrl: '/xss-xxe/add',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/add',
+      path: '/add',
+      href: '/add',
+      _raw: '/add'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    getConnection: [Function (anonymous)],
+    secret: undefined,
+    cookies: {
+      _xsrf: '2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533',
+      'username-localhost-8888': '2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e',
+      _csrf: 'EJ6HeknEP1aZ8EerGmiLfIgI'
+    },
+    signedCookies: [Object: null prototype] {},
+    body: [Object: null prototype] {
+      _csrf: '5M6ISf6Q-yHO-ThXVv4A033ya2zeE2qEVjWY',
+      name: 'Yash Kumar Gupta',
+      designation: 'Software Engineer'
+    },
+    _body: true,
+    length: undefined,
+    _startAt: [ 1510, 947452017 ],
+    _startTime: 2021-11-08T12:53:34.461Z,
+    _remoteAddress: '::1',
+    route: Route { path: '/add', stack: [Array], methods: [Object] },
+    csrfToken: [Function: csrfToken],
+    [Symbol(kCapture)]: false,
+    [Symbol(kHeaders)]: {
+      host: 'localhost:8000',
+      connection: 'keep-alive',
+      'content-length': '94',
+      'cache-control': 'max-age=0',
+      'sec-ch-ua': '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"Linux"',
+      'upgrade-insecure-requests': '1',
+      origin: 'null',
+      'content-type': 'application/x-www-form-urlencoded',
+      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+      cookie: '_xsrf=2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533; username-localhost-8888="2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e"; _csrf=EJ6HeknEP1aZ8EerGmiLfIgI'
+    },
+    [Symbol(kHeadersCount)]: 38,
+    [Symbol(kTrailers)]: null,
+    [Symbol(kTrailersCount)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _sent100: false,
+  _expect_continue: false,
+  locals: [Object: null prototype] {},
+  end: [Function (anonymous)],
+  _startAt: undefined,
+  _startTime: undefined,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] {
+    queue: [ [Function: logRequest], [Function: logRequest] ]
+  },
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'content-security-policy': [
+      'Content-Security-Policy',
+      "default-src 'self' 'unsafe-inline';style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ https://maxcdn.bootstrapcdn.com;script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/"
+    ],
+    'x-dns-prefetch-control': [ 'X-DNS-Prefetch-Control', 'off' ],
+    'expect-ct': [ 'Expect-CT', 'max-age=0' ],
+    'x-frame-options': [ 'X-Frame-Options', 'SAMEORIGIN' ],
+    'strict-transport-security': [
+      'Strict-Transport-Security',
+      'max-age=15552000; includeSubDomains; preload'
+    ],
+    'x-download-options': [ 'X-Download-Options', 'noopen' ],
+    'x-content-type-options': [ 'X-Content-Type-Options', 'nosniff' ],
+    'x-permitted-cross-domain-policies': [ 'X-Permitted-Cross-Domain-Policies', 'none' ],
+    'referrer-policy': [ 'Referrer-Policy', 'no-referrer' ],
+    'x-xss-protection': [ 'X-XSS-Protection', '0' ]
+  }
+}
+::1 - - [08/Nov/2021:12:53:34 +0000] "POST /xss-xxe/add HTTP/1.1" 302 52 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:53:34 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2743 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:53:38 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:53:46 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:53:51 +0000] "GET /sql/sqli-ml HTTP/1.1" 500 2099 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:56:01 +0000] "GET /s HTTP/1.1" 404 140 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:56:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:56:04 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:56:06 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:56:09 +0000] "GET /insecure/index HTTP/1.1" 200 4411 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:56:12.181Z] [Object: null prototype] {
+  username: 'U2FsdGVkX19lXFf2H0WxwtQiRlTpCaFIZkJ4kADR5JdbD8G+jBJiUUOb+0weqzJat1y20dxLTbTnxwGbZXwtaqkYk0ZQ0wdnRDTNVlU541EDq/45mILS7Q9S3+L0RcA+ yash or 1=1'
+}
+[2021-11-08T12:56:12.181Z] [
+  'U2FsdGVkX19lXFf2H0WxwtQiRlTpCaFIZkJ4kADR5JdbD8G+jBJiUUOb+0weqzJat1y20dxLTbTnxwGbZXwtaqkYk0ZQ0wdnRDTNVlU541EDq/45mILS7Q9S3+L0RcA+',
+  'yash',
+  'or',
+  '1=1'
+]
+[2021-11-08T12:56:12.186Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-08T12:56:12.186Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-08T12:56:12.186Z] 123e46c6fc74beec617dad826253109e8e709dcc82e6118a3e9304248c39eb97
+::1 - - [08/Nov/2021:12:56:12 +0000] "POST /insecure/index HTTP/1.1" 200 4536 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:56:23.220Z] [Object: null prototype] {
+  username: 'U2FsdGVkX19VURkHDIzbjc+93R7ANNEzonqDF7+aMLA4010qAxzwo8gU5XR18Nc9ETj/V2X9udVn8oNChx4Nwc35HRm+RsfGmvs/QM5lDtAggeM4jDE2EAhJ+S1C8Jr3 hostelA'
+}
+[2021-11-08T12:56:23.221Z] [
+  'U2FsdGVkX19VURkHDIzbjc+93R7ANNEzonqDF7+aMLA4010qAxzwo8gU5XR18Nc9ETj/V2X9udVn8oNChx4Nwc35HRm+RsfGmvs/QM5lDtAggeM4jDE2EAhJ+S1C8Jr3',
+  'hostelA'
+]
+[2021-11-08T12:56:23.225Z] 1d6125b4f5be48d170a851655483f9d55b3d46dc12d021aa2a5c3f0d797fa0e4
+[2021-11-08T12:56:23.225Z] Verified.
+::1 - - [08/Nov/2021:12:56:23 +0000] "POST /insecure/index HTTP/1.1" 200 4532 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:56:29.620Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+HPiicMX9+3D+GfRt91Nj/ys8eFssWETNZ0Ha4nWpFxeV7i/Yk/+eK5Og8DjZ6SdRik/3voplxnvY59kB2CXeiQFUd8XKUmfxkwbvTojtqYvTJrjy+J94r y'
+}
+[2021-11-08T12:56:29.620Z] [
+  'U2FsdGVkX1+HPiicMX9+3D+GfRt91Nj/ys8eFssWETNZ0Ha4nWpFxeV7i/Yk/+eK5Og8DjZ6SdRik/3voplxnvY59kB2CXeiQFUd8XKUmfxkwbvTojtqYvTJrjy+J94r',
+  'y'
+]
+[2021-11-08T12:56:29.624Z] a1fce4363854ff888cff4b8e7875d600c2682390412a8cf79b37d0b11148b0fa
+[2021-11-08T12:56:29.625Z] Verified.
+::1 - - [08/Nov/2021:12:56:29 +0000] "POST /insecure/index HTTP/1.1" 200 4526 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:56:33.529Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+b/sjgSCwVgCoQuMvjDFapttYfxAS0nhUQNbZCJj4N8NuOgH/N6/ZHXRFEoAgnbWtJ3bkiKwJmMTl1ASAay1cQz1mt9iAfO8lbCUHC7GhvMC6mEuERL/px admin'
+}
+[2021-11-08T12:56:33.530Z] [
+  'U2FsdGVkX1+b/sjgSCwVgCoQuMvjDFapttYfxAS0nhUQNbZCJj4N8NuOgH/N6/ZHXRFEoAgnbWtJ3bkiKwJmMTl1ASAay1cQz1mt9iAfO8lbCUHC7GhvMC6mEuERL/px',
+  'admin'
+]
+[2021-11-08T12:56:33.533Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T12:56:33.533Z] Verified.
+::1 - - [08/Nov/2021:12:56:33 +0000] "POST /insecure/index HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:56:41.681Z] [Object: null prototype] {
+  username: 'U2FsdGVkX19bqtu3rFZQBzZcfqCaZN4EfIjMWJ5uky5QV0EwOfaeo3ljEyK5XwkO1QO0hfxbrFXgR0uuUe/A0u/NULexjSWZiy9Ufud5iOdhqogxgn+HApbNRk7YclQF yash kumar gupta'
+}
+[2021-11-08T12:56:41.681Z] [
+  'U2FsdGVkX19bqtu3rFZQBzZcfqCaZN4EfIjMWJ5uky5QV0EwOfaeo3ljEyK5XwkO1QO0hfxbrFXgR0uuUe/A0u/NULexjSWZiy9Ufud5iOdhqogxgn+HApbNRk7YclQF',
+  'yash',
+  'kumar',
+  'gupta'
+]
+[2021-11-08T12:56:41.682Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-08T12:56:41.683Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-08T12:56:41.683Z] 011dc0a4c0533877803239f382809405dd6da5573b297b09778db51c184f0d81
+::1 - - [08/Nov/2021:12:56:41 +0000] "POST /insecure/index HTTP/1.1" 200 4541 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:56:50.764Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1/gDlXZPREy+ZejOTbgNIeIFQ8wrbnKlAG9rj+2xW4WCYPvY98nhzFb7kZbb4VJe1Od3gkIPCjb7sX3PwUs9qKYAJFaKOb1T9gJC2cWmNY2KJ0MOA4aRv3b megh'
+}
+[2021-11-08T12:56:50.764Z] [
+  'U2FsdGVkX1/gDlXZPREy+ZejOTbgNIeIFQ8wrbnKlAG9rj+2xW4WCYPvY98nhzFb7kZbb4VJe1Od3gkIPCjb7sX3PwUs9qKYAJFaKOb1T9gJC2cWmNY2KJ0MOA4aRv3b',
+  'megh'
+]
+[2021-11-08T12:56:50.765Z] 3d9c6dcb2e466d501c12451aaf28aad67185302eb3761170d27406bb12fbb52b
+[2021-11-08T12:56:50.765Z] Verified.
+::1 - - [08/Nov/2021:12:56:50 +0000] "POST /insecure/index HTTP/1.1" 200 4529 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:12:58:10 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:58:14 +0000] "GET /sql/sqli-ml HTTP/1.1" 500 2099 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:12:58:48 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:58:49 +0000] "GET /insecure/index HTTP/1.1" 200 4411 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T12:58:52.233Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+VTd0+iC8w7bS3GpjkzJpCjF4APZLdab+2WCs7Se22emO8J+neGHUdYrC3dLEwGpSn+oD9DDUgjuTNhd7K2UYev5C6igEuuckO0ENnonoW73zcWuOVLQlN admin'
+}
+[2021-11-08T12:58:52.235Z] [
+  'U2FsdGVkX1+VTd0+iC8w7bS3GpjkzJpCjF4APZLdab+2WCs7Se22emO8J+neGHUdYrC3dLEwGpSn+oD9DDUgjuTNhd7K2UYev5C6igEuuckO0ENnonoW73zcWuOVLQlN',
+  'admin'
+]
+[2021-11-08T12:58:52.240Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T12:58:52.240Z] Verified.
+::1 - - [08/Nov/2021:12:58:52 +0000] "POST /insecure/index HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:12:58:54 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:07:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:07:23 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:07:24 +0000] "GET /sql/index HTTP/1.1" 200 1837 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:07:31.890Z] Username entered: yash' or '1=1
+::1 - - [08/Nov/2021:13:07:31 +0000] "POST /sql/index HTTP/1.1" 200 1837 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:07:31.903Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:07:31.904Z] [
+  RowDataPacket { id: 1, username: 'meghna', password: 'meghna123' },
+  RowDataPacket { id: 2, username: 'yash', password: 'yash123' }
+]
+[2021-11-08T13:07:31.906Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:07:31.906Z] []
+::1 - - [08/Nov/2021:13:07:40 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:08:37.518Z] null
+[2021-11-08T13:08:37.519Z] [
+  'sqli     5928',
+  'plain    3694',
+  'Name: type, dtype: int64',
+  'Gradient Boosting Tree Acurracy: 1.000000',
+  '[SQL-Injection]: yash or 1=1'
+]
+::1 - - [08/Nov/2021:13:08:37 +0000] "POST /sql/sqli-ml HTTP/1.1" 200 1901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:08:44 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:08:45 +0000] "GET /insecure/index HTTP/1.1" 200 4411 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:08:47.932Z] [Object: null prototype] {
+  username: 'U2FsdGVkX19JDfpQiYoM5sVNhiC9ktew2/oRTwN9l+KDvmb92ZeqoCVB9mkwPlSR+35pr5eFiJJUJ7yWmbtLojCq26H41Qoc+o81Cb2VoQT+zcdk25XDJ0IxjT+U2H6n admin'
+}
+[2021-11-08T13:08:47.934Z] [
+  'U2FsdGVkX19JDfpQiYoM5sVNhiC9ktew2/oRTwN9l+KDvmb92ZeqoCVB9mkwPlSR+35pr5eFiJJUJ7yWmbtLojCq26H41Qoc+o81Cb2VoQT+zcdk25XDJ0IxjT+U2H6n',
+  'admin'
+]
+[2021-11-08T13:08:47.939Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T13:08:47.939Z] Verified.
+::1 - - [08/Nov/2021:13:08:47 +0000] "POST /insecure/index HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:08:49 +0000] "GET /sql/index HTTP/1.1" 200 1837 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:08:49 +0000] "GET /insecure/index HTTP/1.1" 200 4411 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:08:51 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:11:46 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:11:51 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2580 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:11:54 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:11:57 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2580 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:11:58 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:12:01 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1901 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:12:02 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:12:04 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:12:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:14:45 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:18:30 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:18:36.403Z] [Object: null prototype] {
+  username: 'U2FsdGVkX19XfzsBzgVRutLbfiQrUHnWV1gNXCW5v3Gjt3Sa3+4hzMcu1Rf4XYwIypqTPzAVwII/FkZoiSNVoJfxGfyFLN7LCIfh+OwV/uoPODBhb9a7nkHDqM9hd5Zn admin'
+}
+[2021-11-08T13:18:36.403Z] [
+  'U2FsdGVkX19XfzsBzgVRutLbfiQrUHnWV1gNXCW5v3Gjt3Sa3+4hzMcu1Rf4XYwIypqTPzAVwII/FkZoiSNVoJfxGfyFLN7LCIfh+OwV/uoPODBhb9a7nkHDqM9hd5Zn',
+  'admin'
+]
+[2021-11-08T13:18:36.407Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T13:18:36.407Z] Verified.
+::1 - - [08/Nov/2021:13:18:36 +0000] "POST /insecure/index HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:18:41 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:18:42 +0000] "GET /insecure/index HTTP/1.1" 200 4411 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:18:45.734Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1/cSv860Oh+eVJfTS1Modv/2le4XUuFW9JqOcDsMVKhpYuev4RvG7A6zVFbe062dU3PrerWPTa0Stgu+JfRWZlUrEwkSGYz6Dvqlvp/aJgHD+G12KgtTdfx admin'
+}
+[2021-11-08T13:18:45.735Z] [
+  'U2FsdGVkX1/cSv860Oh+eVJfTS1Modv/2le4XUuFW9JqOcDsMVKhpYuev4RvG7A6zVFbe062dU3PrerWPTa0Stgu+JfRWZlUrEwkSGYz6Dvqlvp/aJgHD+G12KgtTdfx',
+  'admin'
+]
+[2021-11-08T13:18:45.738Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T13:18:45.738Z] Verified.
+::1 - - [08/Nov/2021:13:18:45 +0000] "POST /insecure/index HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:18:51 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:18:51 +0000] "GET /insecure/index HTTP/1.1" 200 4411 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:19:24 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:19:27.602Z] [Object: null prototype] {
+  username: 'U2FsdGVkX18WOqZC0A1/d6QjzcUqOtsu+zJc37vuCd7/4LQC7gBX9FYsFWCiUS35XHZGx4EBsXJY1FFblJkoYef3r4SveabMx7be6cH+wZrC4kkmoJ+YahJL/kbL1X7T admin'
+}
+[2021-11-08T13:19:27.611Z] [
+  'U2FsdGVkX18WOqZC0A1/d6QjzcUqOtsu+zJc37vuCd7/4LQC7gBX9FYsFWCiUS35XHZGx4EBsXJY1FFblJkoYef3r4SveabMx7be6cH+wZrC4kkmoJ+YahJL/kbL1X7T',
+  'admin'
+]
+[2021-11-08T13:19:27.629Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T13:19:27.630Z] Verified.
+::1 - - [08/Nov/2021:13:19:27 +0000] "POST /insecure/index HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:19:33 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:19:34 +0000] "GET /insecure/index HTTP/1.1" 200 4396 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:19:36.539Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+ZpFUmEwz0t4vYKjAc0+XLm1pUnf7QWG9z72s+sF22NNfZaXED4pu2YFXv26RPQIoyIymyv2r22/473mWwk5RKNQpNSqNnc3D3sYEV2GpnWUSojsNXksLD admin'
+}
+[2021-11-08T13:19:36.541Z] [
+  'U2FsdGVkX1+ZpFUmEwz0t4vYKjAc0+XLm1pUnf7QWG9z72s+sF22NNfZaXED4pu2YFXv26RPQIoyIymyv2r22/473mWwk5RKNQpNSqNnc3D3sYEV2GpnWUSojsNXksLD',
+  'admin'
+]
+[2021-11-08T13:19:36.545Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T13:19:36.545Z] Verified.
+::1 - - [08/Nov/2021:13:19:36 +0000] "POST /insecure/index HTTP/1.1" 200 4530 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:19:38 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:19:48 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:21:55 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:21:58 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:22:02 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:23:26 +0000] "GET /sql/index HTTP/1.1" 404 148 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:23:30 +0000] "GET /sql/index HTTP/1.1" 404 148 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:24:18 +0000] "GET /sql/index HTTP/1.1" 404 148 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:24:20 +0000] "GET /sql/index HTTP/1.1" 404 148 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:25:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:25:24 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:25:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:25:31 +0000] "GET /sql/index HTTP/1.1" 500 2078 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:25:58 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:26:06 +0000] "GET /sql/index HTTP/1.1" 404 148 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:26:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:26:10 +0000] "GET /sql/index HTTP/1.1" 404 148 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:26:41 +0000] "GET /sql/sql/index HTTP/1.1" 200 1859 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:27:09 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:27:10 +0000] "GET /sql/index HTTP/1.1" 200 1859 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:27:12 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:27:45 +0000] "GET /sql/sqli-ml HTTP/1.1" 200 1909 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:27:46 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:27:47 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:27:48 +0000] "GET /sql/index HTTP/1.1" 200 1845 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:27:55.161Z] Username entered: yash' or '1=1
+::1 - - [08/Nov/2021:13:27:55 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:27:55.184Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:27:55.184Z] [
+  RowDataPacket { id: 1, username: 'meghna', password: 'meghna123' },
+  RowDataPacket { id: 2, username: 'yash', password: 'yash123' }
+]
+[2021-11-08T13:27:55.193Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:27:55.193Z] []
+::1 - - [08/Nov/2021:13:27:59 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:28:01 +0000] "GET /sql/index HTTP/1.1" 200 1845 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:28:09 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:31:46 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:13:31:47 +0000] "GET /insecure/index HTTP/1.1" 200 4386 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:31:58.874Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+XaPIoP1/HBi29rRtMEQ/uYCm8kAmM8GFTe/UhPnKEm4n8grtsQSpuaK54gAovBH+2PrcHXNrxoX0Inx9aE23SyRnes0KPARDRd7VczIf082LJl6pIxY69 yash'
+}
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:32:44 +0000] "GET /insecure/index HTTP/1.1" 200 4400 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Mobile Safari/537.36"
+[2021-11-08T13:32:51.493Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+MbyOuoHE3zRK6RJ3uYhYxX8lk1DJ1tgrw6NSXrp0xw+Ll3jsi5OIujBX9U131IrGdfWJvaUsJF97DOTxnk/jeGr08wqGX0M0vy0MGYWexWKu07T8PLJL1 yash'
+}
+[2021-11-08T13:32:51.495Z] [
+  'U2FsdGVkX1+MbyOuoHE3zRK6RJ3uYhYxX8lk1DJ1tgrw6NSXrp0xw+Ll3jsi5OIujBX9U131IrGdfWJvaUsJF97DOTxnk/jeGr08wqGX0M0vy0MGYWexWKu07T8PLJL1',
+  'yash'
+]
+[2021-11-08T13:32:51.501Z] 262cc47030b1803064844b94c1cb0054a247d1e550e26bb33f215149d8b2c72e
+[2021-11-08T13:32:51.502Z] Verified.
+::1 - - [08/Nov/2021:13:32:51 +0000] "POST /insecure/index HTTP/1.1" 200 4533 "-" "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Mobile Safari/537.36"
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:40:18 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:40:25.140Z] Username entered: yash
+::1 - - [08/Nov/2021:13:40:25 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:40:25.151Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:40:25.151Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:40:25.155Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:40:25.155Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:41:22.907Z] Username entered: yash
+::1 - - [08/Nov/2021:13:41:22 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:41:22.923Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:41:22.923Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:41:22.927Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:41:22.927Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:41:46.211Z] Username entered: yash
+::1 - - [08/Nov/2021:13:41:46 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:41:46.228Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:41:46.229Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:41:46.232Z] RowDataPacket { id: 2, username: 'yash', password: 'yash123' }
+[2021-11-08T13:41:46.233Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:41:46.233Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:42:10.366Z] Username entered: yash
+::1 - - [08/Nov/2021:13:42:10 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:42:10.372Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:42:10.372Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:42:10.372Z] RowDataPacket { id: 2, username: 'yash', password: 'yash123' }
+[2021-11-08T13:42:10.373Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:42:10.373Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+[2021-11-08T13:42:31.945Z] Username entered: yash
+::1 - - [08/Nov/2021:13:42:31 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:42:31.963Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:42:31.963Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:42:31.967Z] undefined
+[2021-11-08T13:42:31.968Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:42:31.968Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:43:27.956Z] Username entered: yash
+::1 - - [08/Nov/2021:13:43:27 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:43:27.976Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:43:27.976Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:43:27.980Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:43:27.980Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:45:15.980Z] Username entered: yash
+::1 - - [08/Nov/2021:13:45:15 +0000] "POST /sql/index HTTP/1.1" 200 1875 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:45:15.997Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:45:15.997Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:45:16.001Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:45:16.001Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+::1 - - [08/Nov/2021:13:45:21 +0000] "GET /sql/index HTTP/1.1" 200 1845 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:45:56.973Z] Username entered: yash
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:46:02 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:46:05.659Z] Username entered: yash
+::1 - - [08/Nov/2021:13:46:05 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:46:05.669Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:46:05.669Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:46:05.674Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:46:05.674Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:46:47 +0000] "GET /sql/index HTTP/1.1" 200 1845 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:46:54.100Z] Username entered: yash
+::1 - - [08/Nov/2021:13:46:54 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:46:54.109Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:46:54.110Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:46:54.114Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:46:54.114Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:47:21 +0000] "GET /sql/index HTTP/1.1" 200 1845 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:47:26.405Z] Username entered: admin
+::1 - - [08/Nov/2021:13:47:26 +0000] "POST /sql/index HTTP/1.1" 200 1844 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:47:26.415Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:47:26.415Z] []
+[2021-11-08T13:47:26.417Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:47:26.418Z] []
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:48:44 +0000] "GET /sql/index HTTP/1.1" 500 2061 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:49:07 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:49:09.354Z] Username entered: yash
+::1 - - [08/Nov/2021:13:49:09 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:49:09.366Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:49:09.366Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:49:09.371Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:49:09.372Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:50:07.747Z] Username entered: yash
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:50:41 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:50:44.555Z] Username entered: yash
+::1 - - [08/Nov/2021:13:50:44 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:50:44.564Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:50:44.564Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:50:44.569Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:50:44.570Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:51:02 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:51:06.617Z] Username entered: yash
+[2021-11-08T13:51:06.619Z] undefined
+::1 - - [08/Nov/2021:13:51:06 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:51:06.628Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:51:06.629Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:51:06.637Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:51:06.637Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:55:23.341Z] Username entered: yash
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:13:55:48 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:55:51.341Z] Username entered: yash
+::1 - - [08/Nov/2021:13:55:51 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:55:51.353Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:55:51.353Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:55:51.357Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:55:51.357Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T13:56:15.681Z] Username entered: yash
+[2021-11-08T13:56:15.685Z] undefined
+::1 - - [08/Nov/2021:13:56:15 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T13:56:15.720Z] Unmitigated SQLi Query Output - 
+[2021-11-08T13:56:15.721Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T13:56:15.726Z] Mitigated SQLi Query Output - 
+[2021-11-08T13:56:15.727Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T14:00:34.900Z] error when connecting to db:
+[2021-11-08T14:00:36.904Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T14:03:07.037Z] error when connecting to db:
+[2021-11-08T14:03:09.045Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T14:04:34.023Z] error when connecting to db:
+[2021-11-08T14:04:36.032Z] error when connecting to db:
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:08:45 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:08:46 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:08:47 +0000] "GET /xss-xxe/show HTTP/1.1" 500 1603 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:08:54 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:08:55 +0000] "GET /insecure/index HTTP/1.1" 200 3311 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:08:56 +0000] "GET /xss-xxe/show HTTP/1.1" 500 1603 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:09:38 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:09:39 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:09:40 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:09:41 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:09:44.134Z] Username entered: yash
+::1 - - [08/Nov/2021:14:09:44 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:09:44.153Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:09:44.153Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:09:44.157Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:09:44.157Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:10:15 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:10:16 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:10:17 +0000] "GET /xss-xxe/show HTTP/1.1" 500 1603 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:10:19 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:10:19 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:10:20 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:10:21 +0000] "GET /sql/sqli-ml HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:10:22 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:10:26.297Z] Username entered: yash
+::1 - - [08/Nov/2021:14:10:26 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:10:26.314Z] Error Occured.
+[2021-11-08T14:10:26.314Z] Error Occured.
+Server is up and running on 8000
+[2021-11-08T14:10:46.708Z] Username entered: yash
+::1 - - [08/Nov/2021:14:10:46 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:10:46.731Z] Error Occured.Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+[2021-11-08T14:10:46.732Z] Error Occured.
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T14:13:14.173Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T14:13:14.714Z] error when connecting to db:
+Server is up and running on 8000
+[2021-11-08T14:13:15.128Z] error when connecting to db:
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:13:52 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:13:54 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:13:54 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2743 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:13:55 +0000] "GET /xss-xxe/add HTTP/1.1" 200 2580 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:14:15.195Z] <ref *2> ServerResponse {
+  _events: [Object: null prototype] {
+    finish: [ [Function: bound resOnFinish], [Function: onevent] ],
+    end: [Function: onevent]
+  },
+  _eventsCount: 2,
+  _maxListeners: undefined,
+  outputData: [],
+  outputSize: 0,
+  writable: true,
+  destroyed: false,
+  _last: false,
+  chunkedEncoding: false,
+  shouldKeepAlive: true,
+  _defaultKeepAlive: true,
+  useChunkedEncodingByDefault: true,
+  sendDate: true,
+  _removedConnection: false,
+  _removedContLen: false,
+  _removedTE: false,
+  _contentLength: null,
+  _hasBody: true,
+  _trailer: '',
+  finished: false,
+  _headerSent: false,
+  _closed: false,
+  socket: <ref *1> Socket {
+    connecting: false,
+    _hadError: false,
+    _parent: null,
+    _host: null,
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: false,
+      endEmitted: false,
+      reading: true,
+      constructed: true,
+      sync: false,
+      needReadable: true,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      destroyed: false,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] {
+      end: [Array],
+      timeout: [Function: socketOnTimeout],
+      data: [Function: bound socketOnData],
+      error: [Array],
+      close: [Array],
+      drain: [Function: bound socketOnDrain],
+      resume: [Function: onSocketResume],
+      pause: [Function: onSocketPause]
+    },
+    _eventsCount: 8,
+    _maxListeners: undefined,
+    _writableState: WritableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      finalCalled: false,
+      needDrain: false,
+      ending: false,
+      ended: false,
+      finished: false,
+      destroyed: false,
+      decodeStrings: false,
+      defaultEncoding: 'utf8',
+      length: 0,
+      writing: false,
+      corked: 0,
+      sync: true,
+      bufferProcessing: false,
+      onwrite: [Function: bound onwrite],
+      writecb: null,
+      writelen: 0,
+      afterWriteTickInfo: null,
+      buffered: [],
+      bufferedIndex: 0,
+      allBuffers: true,
+      allNoop: true,
+      pendingcb: 0,
+      constructed: true,
+      prefinished: false,
+      errorEmitted: false,
+      emitClose: false,
+      autoDestroy: true,
+      errored: null,
+      closed: false,
+      closeEmitted: false,
+      [Symbol(kOnFinished)]: []
+    },
+    allowHalfOpen: true,
+    _sockname: null,
+    _pendingData: null,
+    _pendingEncoding: '',
+    server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 12
+    },
+    _server: Server {
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      _connections: 2,
+      _handle: [TCP],
+      _usingWorkers: false,
+      _workers: [],
+      _unref: false,
+      allowHalfOpen: true,
+      pauseOnConnect: false,
+      httpAllowHalfOpen: false,
+      timeout: 0,
+      keepAliveTimeout: 5000,
+      maxHeadersCount: null,
+      headersTimeout: 60000,
+      requestTimeout: 0,
+      _connectionKey: '6::::8000',
+      [Symbol(IncomingMessage)]: [Function: IncomingMessage],
+      [Symbol(ServerResponse)]: [Function: ServerResponse],
+      [Symbol(kCapture)]: false,
+      [Symbol(async_id_symbol)]: 12
+    },
+    parser: HTTPParser {
+      '0': [Function: bound setRequestTimeout],
+      '1': [Function: parserOnHeaders],
+      '2': [Function: parserOnHeadersComplete],
+      '3': [Function: parserOnBody],
+      '4': [Function: parserOnMessageComplete],
+      '5': [Function: bound onParserExecute],
+      '6': [Function: bound onParserTimeout],
+      _headers: [],
+      _url: '',
+      socket: [Circular *1],
+      incoming: [IncomingMessage],
+      outgoing: null,
+      maxHeaderPairs: 2000,
+      _consumed: true,
+      onIncoming: [Function: bound parserOnIncoming],
+      [Symbol(resource_symbol)]: [HTTPServerAsyncResource]
+    },
+    on: [Function: socketListenerWrap],
+    addListener: [Function: socketListenerWrap],
+    prependListener: [Function: socketListenerWrap],
+    setEncoding: [Function: socketSetEncoding],
+    _paused: false,
+    _httpMessage: [Circular *2],
+    _peername: { address: '::1', family: 'IPv6', port: 42076 },
+    [Symbol(async_id_symbol)]: 25,
+    [Symbol(kHandle)]: TCP {
+      reading: true,
+      onconnection: null,
+      _consumed: true,
+      [Symbol(owner_symbol)]: [Circular *1]
+    },
+    [Symbol(kSetNoDelay)]: false,
+    [Symbol(lastWriteQueueSize)]: 0,
+    [Symbol(timeout)]: null,
+    [Symbol(kBuffer)]: null,
+    [Symbol(kBufferCb)]: null,
+    [Symbol(kBufferGen)]: null,
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesRead)]: 0,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _header: null,
+  _keepAliveTimeout: 5000,
+  _onPendingData: [Function: bound updateOutgoingData],
+  req: IncomingMessage {
+    _readableState: ReadableState {
+      objectMode: false,
+      highWaterMark: 16384,
+      buffer: BufferList { head: null, tail: null, length: 0 },
+      length: 0,
+      pipes: [],
+      flowing: true,
+      ended: true,
+      endEmitted: true,
+      reading: false,
+      constructed: true,
+      sync: false,
+      needReadable: false,
+      emittedReadable: false,
+      readableListening: false,
+      resumeScheduled: false,
+      errorEmitted: false,
+      emitClose: true,
+      autoDestroy: true,
+      destroyed: true,
+      errored: null,
+      closed: true,
+      closeEmitted: true,
+      defaultEncoding: 'utf8',
+      awaitDrainWriters: null,
+      multiAwaitDrain: false,
+      readingMore: false,
+      decoder: null,
+      encoding: null,
+      [Symbol(kPaused)]: false
+    },
+    _events: [Object: null prototype] { end: [Function: clearRequestTimeout] },
+    _eventsCount: 1,
+    _maxListeners: undefined,
+    socket: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 25,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    httpVersionMajor: 1,
+    httpVersionMinor: 1,
+    httpVersion: '1.1',
+    complete: true,
+    rawHeaders: [
+      'Host',
+      'localhost:8000',
+      'Connection',
+      'keep-alive',
+      'Content-Length',
+      '80',
+      'Cache-Control',
+      'max-age=0',
+      'sec-ch-ua',
+      '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+      'sec-ch-ua-mobile',
+      '?0',
+      'sec-ch-ua-platform',
+      '"Linux"',
+      'Upgrade-Insecure-Requests',
+      '1',
+      'Origin',
+      'null',
+      'Content-Type',
+      'application/x-www-form-urlencoded',
+      'User-Agent',
+      'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+      'Accept',
+      'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'Sec-Fetch-Site',
+      'same-origin',
+      'Sec-Fetch-Mode',
+      'navigate',
+      'Sec-Fetch-User',
+      '?1',
+      'Sec-Fetch-Dest',
+      'document',
+      'Accept-Encoding',
+      'gzip, deflate, br',
+      'Accept-Language',
+      'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+      'Cookie',
+      '_xsrf=2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533; username-localhost-8888="2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e"; _csrf=EJ6HeknEP1aZ8EerGmiLfIgI'
+    ],
+    rawTrailers: [],
+    aborted: false,
+    upgrade: false,
+    url: '/add',
+    method: 'POST',
+    statusCode: null,
+    statusMessage: null,
+    client: <ref *1> Socket {
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: null,
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 8,
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: true,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: [Server],
+      _server: [Server],
+      parser: [HTTPParser],
+      on: [Function: socketListenerWrap],
+      addListener: [Function: socketListenerWrap],
+      prependListener: [Function: socketListenerWrap],
+      setEncoding: [Function: socketSetEncoding],
+      _paused: false,
+      _httpMessage: [Circular *2],
+      _peername: [Object],
+      [Symbol(async_id_symbol)]: 25,
+      [Symbol(kHandle)]: [TCP],
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: null,
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(RequestTimeout)]: undefined
+    },
+    _consuming: true,
+    _dumped: false,
+    next: [Function: next],
+    baseUrl: '/xss-xxe',
+    originalUrl: '/xss-xxe/add',
+    _parsedUrl: Url {
+      protocol: null,
+      slashes: null,
+      auth: null,
+      host: null,
+      port: null,
+      hostname: null,
+      hash: null,
+      search: null,
+      query: null,
+      pathname: '/add',
+      path: '/add',
+      href: '/add',
+      _raw: '/add'
+    },
+    params: {},
+    query: {},
+    res: [Circular *2],
+    getConnection: [Function (anonymous)],
+    secret: undefined,
+    cookies: {
+      _xsrf: '2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533',
+      'username-localhost-8888': '2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e',
+      _csrf: 'EJ6HeknEP1aZ8EerGmiLfIgI'
+    },
+    signedCookies: [Object: null prototype] {},
+    body: [Object: null prototype] {
+      _csrf: '5o2kPBMs-nz2fVejFc1avFOGH4CBkArjkIfw',
+      name: 'Meghna Suraj',
+      designation: 'Analyst'
+    },
+    _body: true,
+    length: undefined,
+    _startAt: [ 6351, 583643823 ],
+    _startTime: 2021-11-08T14:14:15.098Z,
+    _remoteAddress: '::1',
+    route: Route { path: '/add', stack: [Array], methods: [Object] },
+    csrfToken: [Function: csrfToken],
+    [Symbol(kCapture)]: false,
+    [Symbol(kHeaders)]: {
+      host: 'localhost:8000',
+      connection: 'keep-alive',
+      'content-length': '80',
+      'cache-control': 'max-age=0',
+      'sec-ch-ua': '"Google Chrome";v="95", "Chromium";v="95", ";Not A Brand";v="99"',
+      'sec-ch-ua-mobile': '?0',
+      'sec-ch-ua-platform': '"Linux"',
+      'upgrade-insecure-requests': '1',
+      origin: 'null',
+      'content-type': 'application/x-www-form-urlencoded',
+      'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36',
+      accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+      'sec-fetch-site': 'same-origin',
+      'sec-fetch-mode': 'navigate',
+      'sec-fetch-user': '?1',
+      'sec-fetch-dest': 'document',
+      'accept-encoding': 'gzip, deflate, br',
+      'accept-language': 'en-IN,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
+      cookie: '_xsrf=2|21835c4a|072bcb034d5ae62e89f4e97311d38e52|1636273533; username-localhost-8888="2|1:0|10:1636359811|23:username-localhost-8888|44:OTNkMjE5MDEwYzU3NGQ2MWI1MzdlNWE3MjJkNDRiMTM=|1bbeb3e4b696cfd9161d2d105083e6e67ce51d8931e47696f5303f105bafb10e"; _csrf=EJ6HeknEP1aZ8EerGmiLfIgI'
+    },
+    [Symbol(kHeadersCount)]: 38,
+    [Symbol(kTrailers)]: null,
+    [Symbol(kTrailersCount)]: 0,
+    [Symbol(RequestTimeout)]: undefined
+  },
+  _sent100: false,
+  _expect_continue: false,
+  locals: [Object: null prototype] {},
+  end: [Function (anonymous)],
+  _startAt: undefined,
+  _startTime: undefined,
+  writeHead: [Function: writeHead],
+  __onFinished: [Function: listener] {
+    queue: [ [Function: logRequest], [Function: logRequest] ]
+  },
+  [Symbol(kCapture)]: false,
+  [Symbol(kNeedDrain)]: false,
+  [Symbol(corked)]: 0,
+  [Symbol(kOutHeaders)]: [Object: null prototype] {
+    'content-security-policy': [
+      'Content-Security-Policy',
+      "default-src 'self' 'unsafe-inline';style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/ https://maxcdn.bootstrapcdn.com;script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com/"
+    ],
+    'x-dns-prefetch-control': [ 'X-DNS-Prefetch-Control', 'off' ],
+    'expect-ct': [ 'Expect-CT', 'max-age=0' ],
+    'x-frame-options': [ 'X-Frame-Options', 'SAMEORIGIN' ],
+    'strict-transport-security': [
+      'Strict-Transport-Security',
+      'max-age=15552000; includeSubDomains; preload'
+    ],
+    'x-download-options': [ 'X-Download-Options', 'noopen' ],
+    'x-content-type-options': [ 'X-Content-Type-Options', 'nosniff' ],
+    'x-permitted-cross-domain-policies': [ 'X-Permitted-Cross-Domain-Policies', 'none' ],
+    'referrer-policy': [ 'Referrer-Policy', 'no-referrer' ],
+    'x-xss-protection': [ 'X-XSS-Protection', '0' ]
+  }
+}
+::1 - - [08/Nov/2021:14:14:15 +0000] "POST /xss-xxe/add HTTP/1.1" 302 52 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:14:15 +0000] "GET /xss-xxe/show HTTP/1.1" 200 2969 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:14:16 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:14:18.599Z] Username entered: yash
+::1 - - [08/Nov/2021:14:14:18 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:14:18.606Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:14:18.606Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:14:18.607Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:14:18.608Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+::1 - - [08/Nov/2021:14:14:21 +0000] "GET /insecure/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:14:23.205Z] [Object: null prototype] {
+  username: 'U2FsdGVkX1+2a8GvwJkRR96pVvfaq6R0m86xzhLTrJpZ2lR5WvRTMrb4OeiUlSYnpNP7ceoMPKj+ALZXwcre3Ao3r1CXltrvPYEIfpljLdzuAY/PLuf4LGuXZy0jcKhO admin'
+}
+[2021-11-08T14:14:23.205Z] [
+  'U2FsdGVkX1+2a8GvwJkRR96pVvfaq6R0m86xzhLTrJpZ2lR5WvRTMrb4OeiUlSYnpNP7ceoMPKj+ALZXwcre3Ao3r1CXltrvPYEIfpljLdzuAY/PLuf4LGuXZy0jcKhO',
+  'admin'
+]
+[2021-11-08T14:14:23.211Z] 8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918
+[2021-11-08T14:14:23.211Z] Verified.
+::1 - - [08/Nov/2021:14:14:23 +0000] "POST /insecure/index HTTP/1.1" 200 3445 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:16:11 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:16:12 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:17:20 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:17:22.410Z] Username entered: yahs
+::1 - - [08/Nov/2021:14:17:22 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:17:22.421Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:17:22.421Z] 
+[2021-11-08T14:17:22.423Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:17:22.423Z] []
+[2021-11-08T14:17:27.589Z] Username entered: yash
+::1 - - [08/Nov/2021:14:17:27 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:17:27.603Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:17:27.603Z] [object Object]
+[2021-11-08T14:17:27.605Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:17:27.605Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T14:17:54.510Z] Username entered: yash
+::1 - - [08/Nov/2021:14:17:54 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:17:54.525Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:17:54.526Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:17:54.530Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:17:54.530Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:18:30 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:18:31.959Z] Username entered: yash
+::1 - - [08/Nov/2021:14:18:31 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:18:31.971Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:18:31.972Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:18:31.979Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:18:31.979Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:19:05 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:19:07.550Z] Username entered: yash
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:19:37 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:19:39 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:19:41.110Z] Username entered: yash
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:20:41 +0000] "GET /sql/index HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:20:43.429Z] Username entered: yash
+::1 - - [08/Nov/2021:14:20:43 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:20:43.441Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:20:43.441Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:20:43.447Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:20:43.447Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T14:21:09.450Z] Username entered: yash
+::1 - - [08/Nov/2021:14:21:09 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:21:09.466Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:21:09.466Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:21:09.471Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:21:09.471Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T14:21:21.739Z] Username entered: yash
+::1 - - [08/Nov/2021:14:21:21 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:21:21.753Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:21:21.754Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:21:21.756Z] [object Object]
+[2021-11-08T14:21:21.757Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:21:21.758Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:21:37 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:21:39.187Z] Username entered: yash
+::1 - - [08/Nov/2021:14:21:39 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:21:39.196Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:21:39.196Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:21:39.201Z] RowDataPacket { id: 2, username: 'yash', password: 'yash123' }
+[2021-11-08T14:21:39.203Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:21:39.203Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:27:09 +0000] "GET /xss-xxe/show HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+::1 - - [08/Nov/2021:14:27:09 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:27:11.484Z] Username entered: yash
+::1 - - [08/Nov/2021:14:27:11 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:27:11.492Z] Unmitigated SQLi Query Output - 
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+[2021-11-08T14:28:19.815Z] Username entered: yash
+::1 - - [08/Nov/2021:14:28:19 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:28:19.830Z] Unmitigated SQLi Query Output - 
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+Server is up and running on 8000
+::1 - - [08/Nov/2021:14:28:45 +0000] "GET /sql/index HTTP/1.1" 200 1858 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:28:47.710Z] Username entered: yash
+::1 - - [08/Nov/2021:14:28:47 +0000] "POST /sql/index HTTP/1.1" 200 1856 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36"
+[2021-11-08T14:28:47.722Z] Unmitigated SQLi Query Output - 
+[2021-11-08T14:28:47.722Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+[2021-11-08T14:28:47.725Z] RowDataPacket { id: 2, username: 'yash', password: 'yash123' }
+[2021-11-08T14:28:47.727Z] Mitigated SQLi Query Output - 
+[2021-11-08T14:28:47.727Z] [ RowDataPacket { id: 2, username: 'yash', password: 'yash123' } ]
+Server is up and running on 8000
+Server is up and running on 8000

@@ -8,7 +8,7 @@ var CryptoJS = require("crypto-js");
 
 
 var index_get = (req,res) => {
-    res.render('pages/insecure/index', { data: req.body });
+    res.render('pages/insecure/index', { data: "", data1: "secret key 123" });
 }
 router.get('/index',index_get);
 
@@ -30,7 +30,7 @@ var index_post = async(req,res) =>{
         console.log(hash)
         console.log(originalText)
     }
-    res.render('pages/insecure/index', { data: req.body.username });
+    res.render('pages/insecure/index', { data: req.body.username, data1: "secret key 123" });
 }
 router.post('/index', urlencodedParser, index_post);
 

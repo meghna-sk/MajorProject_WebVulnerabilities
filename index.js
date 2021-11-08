@@ -11,6 +11,8 @@ const morgan = require('morgan');
 const fs = require('fs');
 const path = require('path');
 var util = require('util');
+const dotenv = require('dotenv');
+dotenv.config({ path: './.env' });
 
 
 const app = express();
