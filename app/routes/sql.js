@@ -11,7 +11,7 @@ const authJwt = require("../middleware/auth.Jwt");
 let connection = mysql.createConnection({
     host: 'localhost',
     user: 'root',
-    password: 'Dubaigirl13',
+    password: '',
     database: 'mp'
 });
 
