@@ -40,7 +40,7 @@ const Op = db.Sequelize.Op;
 let connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Dubaigirl13',
+  password: '',
   database: 'mp'
 });
 
