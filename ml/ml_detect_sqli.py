@@ -89,7 +89,7 @@ def G_means(token_seq, c_name):
 
 
 # read data from file. You should change this path!!
-basedir = '/home/meghna/Desktop/SEM_7/MP/MajorProject_WebVulnerabilities/ml/trainingdata'
+basedir = '/home/meghna/Desktop/SEM_8/MP/MajorProject_WebVulnerabilities/ml/trainingdata'
 filelist = os.listdir(basedir)
 df_list = []
 for file in filelist:

@@ -13,20 +13,58 @@ const path = require('path');
 var util = require('util');
 const dotenv = require('dotenv');
 dotenv.config({ path: './.env' });
+const https = require("https");
+const cors = require("cors");
 
+const config = require("./app/config/db.config.js");
 
 const app = express();
+app.disable('view cache');
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
 
 app.use(myConnection(mysql, {
-    host: "localhost",
-    user: "root",
-    password: "",
-    database: "mp",
+    host: config.HOST,
+    user: config.USER,
+    password: config.PASSWORD,
+    database: config.DB,
 }));
 
+app.set('views', path.join(__dirname, '/app/views'));
+
+var corsOptions = {
+    origin: "http://localhost:8081"
+  };
+  app.use(cors(corsOptions));
+  // parse requests of content-type - application/json
+  app.use(express.json());
+  // parse requests of content-type - application/x-www-form-urlencoded
+  app.use(express.urlencoded({ extended: true }));
+
+
+const db = require("./app/models");
+const Role = db.role;
+db.sequelize.sync();
+
+function initial() {
+  Role.create({
+    id: 1,
+    name: "user"
+  });
+ 
+  Role.create({
+    id: 2,
+    name: "moderator"
+  });
+ 
+  Role.create({
+    id: 3,
+    name: "admin"
+  });
+}
+
+  
 app.disable('x-powered-by');
 app.use(cookieParser())
 app.use(enforceSSL);
@@ -36,18 +74,18 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
 //appropriate headers allowed
-app.use(helmet({
-    hsts: {
-        preload: true
-    },
-    contentSecurityPolicy: {
-        directives: {
-            "defaultSrc": ["'self'", "'unsafe-inline'"],
-            "styleSrc": ["'self'", "'unsafe-inline'", "https://cdnjs.cloudflare.com/" ,"https://maxcdn.bootstrapcdn.com"],
-            "scriptSrc": ["'self'", "'unsafe-inline'", "https://cdnjs.cloudflare.com/"],
-        }
-    }
-}));
+// app.use(helmet({
+//     hsts: {
+//         preload: true
+//     },
+//     contentSecurityPolicy: {
+//         directives: {
+//             "defaultSrc": ["'self'", "'unsafe-inline'"],
+//             "styleSrc": ["'self'", "'unsafe-inline'", "https://cdnjs.cloudflare.com/" ,"https://maxcdn.bootstrapcdn.com"],
+//             "scriptSrc": ["'self'", "'unsafe-inline'", "https://cdnjs.cloudflare.com/"],
+//         }
+//     }
+// }));
 
 
 let logstream = fs.createWriteStream(path.join(__dirname, 'access.log'), {flags:'a'})
@@ -66,14 +104,25 @@ console.log = function(d) { //
     log_stdout.write(util.format(d) + '\n');
   };
   
-app.use('/', require('./routes/pages'));
-app.use('/xss-xxe', require('./routes/xss_xxe'));
-app.use('/sql', require('./routes/sql'));
-app.use('/insecure', require('./routes/insecure'));
+//routes
+app.use('/', require('./app/routes/pages'));
+// app.use('/home', require('./app/routes/home'));
+// app.use('/xss-xxe', require('./app/routes/xss_xxe'));
+// app.use('/sql', require('./app/routes/sql'));
+// app.use('/insecure', require('./app/routes/insecure'));
 
 //port 8000
-const PORT = process.env.PORT || 8000
+const PORT = process.env.PORT || 8080
+
+//regular server
 app.listen(PORT, () => {
     console.log(`Server is up and running on ${PORT}`);
 });
 
+//development purpose ssl certificate added server
+// const sslServer = https.createServer({
+//     key: fs.readFileSync(path.join(__dirname,'cert','key.pem')),
+//     cert: fs.readFileSync(path.join(__dirname,'cert','cert.pem')),
+// }, app)
+
+// sslServer.listen(PORT, () => console.log(`Secure server is up and running on ${PORT}`));

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('../../partials/head'); %>
+</head>
+
+<body class="container">
+
+    <main>
+        <div class="jumbotron">
+            <h1>OTP Verification</h1>
+            <p>Please enter your OTP.</p>
+        </div>
+    </main>
+
+    <form method="POST" action="/verify">
+        <!-- <label> Username</label>
+        <input type="text" name="username" />
+        <input type="submit" value="submit" /> -->
+        <input type="text" id="id" name="username" placeholder="Enter OTP" autocomplete="off" minlength="6" maxlength="6" required/>
+        <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+    <p><%=data%></p>
+    <!-- <a class="btn btn-dark" href="/index" role="button">Change Number</a> -->
+    <footer>
+        <%- include('../../partials/footer'); %>
+    </footer>
+
+</body>
+
+</html>
